@@ -10,3 +10,9 @@ class TestCalculator(unittest.TestCase):
         actual = add(2, 3)
         self.assertEqual(expected, actual)
 
+    def test_subtract(self):
+        # self.assertEqual(3, subtract(10, 7))
+        
+        expected = 3
+        actual = subtract(10, 7)
+        self.assertEqual(expected, actual)
