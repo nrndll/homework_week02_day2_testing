@@ -16,3 +16,11 @@ class TestCalculator(unittest.TestCase):
         expected = 3
         actual = subtract(10, 7)
         self.assertEqual(expected, actual)
+
+    def test_divide(self):
+        self.assertEqual(2, divide(10, 5))
+
+    def test_multiply(self):
+        expected = 9
+        actual = multiply(3, 3)
+        self.assertEqual(expected, actual)
